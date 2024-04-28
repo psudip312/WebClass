@@ -1,0 +1,11 @@
+suru ma git lai initilized 
+git lai remote sanga add garyo
+git lai satus garyo. eta ko file ra uta k file compare gareko k k hamle push garyoo vanera hereko
+aba push garna khojeko file kasarti garne
+ git add ani fileko name dine
+ ex git add git.txt
+ 
+ aba espani k garne ta vanda 
+ upload garna lako file lai euta msg dine msg chai kasaei dine
+ git commit -m"commit ko message"
+ 
