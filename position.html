@@ -36,6 +36,36 @@
         background-color: #c8c8c8;
         padding: 20px;
       }
+      p {
+        display: inline-block; /* Add this line */
+      }
+      .hello:hover {
+        background-color: brown;
+        transform: translate(10px, -10px);
+      }
+      .relativeclass {
+        position: relative;
+      }
+      .Bisesh {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .yan {
+        position: absolute;
+        top: 400px;
+        left: 300px;
+      }
+      .color {
+        background-color: blanchedalmond;
+        display: flex;
+        gap: 20px;
+      }
+      .boxx {
+        height: 100px;
+        width: 100px;
+        border: 1px solid;
+      }
     </style>
   </head>
   <body>
@@ -52,11 +82,11 @@
     <div class="box absol">absolute</div>
     <div class="box fixed">fixed</div>
     <div class="box stick">sticky</div>
-    <p>
+    <div class="hello">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minima ullam
       non ut, eaque voluptatum rerum consectetur eligendi architecto vitae sunt
       distinctio molestiae. Illo rem dolorum voluptatem, culpa natus facere!
-    </p>
+    </div>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minima ullam
       non ut, eaque voluptatum rerum consectetur eligendi architecto vitae sunt
@@ -84,5 +114,27 @@
     </p>
 
     <div class="fixed-element">New year ma babal babal offer offer cha</div>
+    <div class="relativeclass">
+      <img
+        src="https://picsum.photos/seed/picsum/600/700"
+        style="opacity: 0.5"
+      />
+      <div class="Bisesh">Bisesh</div>
+      <div class="yan">Yan</div>
+      <div class="claunalakokura">Santosh</div>
+      <div class="claunalakokura">aslim</div>
+    </div>
+    <div class="color">
+      <div class="boxx">boxxx</div>
+      <div class="boxx">boxxxve</div>
+      <div class="boxx">boxxxte</div>
+      <div class="boxx">boxxx</div>
+      <div class="boxx">boxxx</div>
+      <div class="boxx">boxxx</div>
+      <div class="boxx">boxxxve</div>
+      <div class="boxx">boxxxte</div>
+      <div class="boxx">boxxx</div>
+      <div class="boxx">boxxx</div>
+    </div>
   </body>
 </html>
