@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @media (max-width: 575.98px) {
+        /* Updated media query */
+        .responsivepart {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 20px;
+        }
+        .responsivepart > div {
+          width: 100%; /* Set width to 100% for smaller devices */
+        }
+      }
+
+      @media (min-width: 576px) and (max-width: 768px) {
+        /* Adjusted media query */
+        .responsivepart {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          gap: 20px;
+        }
+        .responsivepart > div {
+          width: 40%;
+        }
+        .responsivepart > div > img {
+          width: 40%;
+        }
+      }
+      @media (min-width: 768px) {
+        .responsivepart {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          gap: 20px;
+        }
+        .responsivepart > div {
+          width: 20%; /* Adjusted width for four divs in one row */
+        }
+        .responsivepart > div > img {
+          width: 100%; /* Image width set to 100% */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 style="text-align: center">Responsive Section</h1>
+      <h1 style="text-align: center">Courses</h1>
+      <div class="responsivepart">
+        <div
+          style="
+            background-color: #c8c8c8;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+          "
+        >
+          <img src="https://picsum.photos/200/300" />
+          <h2>Html</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            eius dignissimos eaque animi corporis explicabo ipsam, autem vitae
+            minima veritatis aperiam unde alias reiciendis nam quia harum
+            provident id sit.
+          </p>
+        </div>
+
+        <div
+          style="
+            background-color: #c8c8c8;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+          "
+        >
+          <img src="https://picsum.photos/200/300" />
+          <h2>Css</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            eius dignissimos eaque animi corporis explicabo ipsam, autem vitae
+            minima veritatis aperiam unde alias reiciendis nam quia harum
+            provident id sit.
+          </p>
+        </div>
+
+        <div
+          style="
+            background-color: #c8c8c8;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+          "
+        >
+          <img src="https://picsum.photos/200/300" />
+          <h2>Javascript</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            eius dignissimos eaque animi corporis explicabo ipsam, autem vitae
+            minima veritatis aperiam unde alias reiciendis nam quia harum
+            provident id sit.
+          </p>
+        </div>
+        <div
+          style="
+            background-color: #c8c8c8;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+          "
+        >
+          <img src="https://picsum.photos/200/300" />
+          <h2>C</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            eius dignissimos eaque animi corporis explicabo ipsam, autem vitae
+            minima veritatis aperiam unde alias reiciendis nam quia harum
+            provident id sit.
+          </p>
+        </div>
+        <div
+          style="
+            background-color: #c8c8c8;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+          "
+        >
+          <img src="https://picsum.photos/200/300" />
+          <h2>Python</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            eius dignissimos eaque animi corporis explicabo ipsam, autem vitae
+            minima veritatis aperiam unde alias reiciendis nam quia harum
+            provident id sit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
